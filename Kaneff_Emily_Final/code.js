@@ -53,11 +53,12 @@ function NoirEncounter(){
     if (userAction == 1){
         fightScore = fightScore + 1;
         console.log("You decide to fight Noir.");
-        outcome = DoCombat(85);
+        outcome = DoCombat(60);
 
         if (outcome) {
             console.log("Your attack hits and Noir runs away without telling you anything.");
-            console.log("He drops a note saying that Justin was last seen heading into London.");
+            console.log("He drops a note saying that Justin was last seen heading towards London to talk to the head master of the " +
+                "covenant there to deal with the most recent problem of blood cultists terrorizing the covenants..");
             console.log("You decide to head that way.");
             BridgeEncounter();
         } else {
@@ -65,8 +66,8 @@ function NoirEncounter(){
             DamagePlayer(Roll(5));
             console.log("You apologize for your outburst and ask him when the last time he saw Justin was.");
             console.log("He tells you that he last saw her heading towards London to talk to the head master of the" +
-                "covenant there.");
-            console.log("You thank him for his time and head off towards london.");
+                "covenant there to deal with the most recent problem of blood cultists terrorizing the covenants.");
+            console.log("You thank him for his time and head off towards London.");
             BridgeEncounter();
         }
     } else {
@@ -74,14 +75,26 @@ function NoirEncounter(){
         console.log("You decide to talk to Noir.");
         console.log("You ask him when the last time he saw Justin was.");
         console.log("He tells you that he last saw her heading towards London to talk to the head master of the" +
-            "covenant there.");
-        console.log("You thank him for his time and head off towards london.");
+            "covenant there to deal with the most recent problem of blood cultists terrorizing the covenants.");
+        console.log("You thank him for his time and head off towards London.");
         BridgeEncounter();
     }
 
 }
 
 function BridgeEncounter(){
+    var healthUp = Roll(5);
+    console.log(" ");
+    console.log("You are about a day and a half out of London.");
+
+    //find item
+    console.log("While traveling through the woods, you notice something strange sitting in the grass off to the side of the path.");
+    console.log("You decide to investigate.");
+    character.health += healthUp;
+    alert("You found a longjevity potion!\nYour health increases by " + healthUp + "!\nYour current health is now " + character.health);
+
+    //encounter
+    
 
 }
 
@@ -96,15 +109,17 @@ function KarnEncounter(){
 function CultEncounter(){
 
 }
+
 function DamagePlayer(damage){
-    
+    //dividing by 6 allows for a higher chance that the player will take more damage based on their defense value
     var temp = damage + ((character.defense / 6) * (-1));
+
     if (temp < 0){
         temp = 0;
     }
     character.health -= temp;
 
-    console.log("You suffer " + damage + " points of damage.");
+    console.log("You suffer " + temp + " points of damage.");
     if (character.health <= 0){
         Die();
     }
@@ -117,15 +132,17 @@ function Die(){
 }
 
 function DoCombat(diff){
-    var tRoll = Roll(100);
-    if (tRoll < (((character.attack + character.defense) * 3) - diff)){
-
+    //rolling a 100 sided die to generate the percentage chance of success or failure in an attack
+    //dividing by 3 creates a number that allows for the characters to not be so similar in their combat score
+    //subtracting diff allows me to set the difficulty of certain encounters and decide how high i want the success rate
+    if (Roll(100) < (((character.attack + character.defense) * 3) - diff)){
+        //successful attack
         return true;
     }
     else {
+        //failed attack
         return false;
     }
-
 }
 
 function Roll(num){

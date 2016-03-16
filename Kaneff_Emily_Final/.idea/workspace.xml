@@ -34,11 +34,16 @@
       <file leaf-file-name="code.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5078125">
-              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.5546875">
+              <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
+                <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+                <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
+                <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
+                <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
                 <element signature="n#!!block;n#Die#0" expanded="false" />
+                <element signature="n#!!block;n#DoCombat#0" expanded="false" />
                 <element signature="n#!!block;n#Roll#0" expanded="false" />
                 <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
               </folding>
@@ -71,8 +76,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="48" />
+    <option name="x" value="150" />
+    <option name="y" value="30" />
     <option name="width" value="1160" />
     <option name="height" value="737" />
   </component>
@@ -193,7 +198,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="48" width="1160" height="737" extended-state="0" />
+    <frame x="150" y="30" width="1160" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1612069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -243,7 +248,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
             <element signature="n#!!block;n#Die#0" expanded="false" />
+            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
             <element signature="n#!!block;n#Roll#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
@@ -264,7 +274,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
             <element signature="n#!!block;n#Die#0" expanded="false" />
+            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
             <element signature="n#!!block;n#Roll#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
@@ -285,7 +300,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
             <element signature="n#!!block;n#Die#0" expanded="false" />
+            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
             <element signature="n#!!block;n#Roll#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
@@ -302,11 +322,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5078125">
-          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.5546875">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
             <element signature="n#!!block;n#Die#0" expanded="false" />
+            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
             <element signature="n#!!block;n#Roll#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
