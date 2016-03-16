@@ -10,9 +10,9 @@ var outcome = true;
 
 
 var JSONText = '{ "characters" : ['+
-        '{ "name" : "Darius", "health" : "10", "attack" : "12", "defense" : "16"},'+
-        '{ "name" : "Brent", "health" : "25", "attack" : "10", "defense" : "13"},'+
-        '{ "name" : "Karl", "health" : "17", "attack" : "5", "defense" : "10"}]'+
+        '{ "name" : "Darius", "health" : 10, "attack" : 12, "defense" : 18},'+
+        '{ "name" : "Brent", "health" : 25, "attack" : 10, "defense" : 12},'+
+        '{ "name" : "Karl", "health" : 17, "attack" : 5, "defense" : 6}]'+
 '}';
 
 var characters = JSON.parse(JSONText);
@@ -84,8 +84,26 @@ function NoirEncounter(){
 function BridgeEncounter(){
 
 }
+
+function LondonEncounter(){
+
+}
+
+function KarnEncounter(){
+
+}
+
+function CultEncounter(){
+
+}
 function DamagePlayer(damage){
-    character.health -= damage;
+    
+    var temp = damage + ((character.defense / 6) * (-1));
+    if (temp < 0){
+        temp = 0;
+    }
+    character.health -= temp;
+
     console.log("You suffer " + damage + " points of damage.");
     if (character.health <= 0){
         Die();
@@ -99,12 +117,15 @@ function Die(){
 }
 
 function DoCombat(diff){
-    if (Roll(100) < (((character.attack + character.defense) * 3) - diff)){
+    var tRoll = Roll(100);
+    if (tRoll < (((character.attack + character.defense) * 3) - diff)){
+
         return true;
     }
     else {
         return false;
     }
+
 }
 
 function Roll(num){
