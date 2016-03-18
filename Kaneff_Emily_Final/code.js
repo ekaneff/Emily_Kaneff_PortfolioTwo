@@ -43,10 +43,10 @@ NoirEncounter();
 
 
 function NoirEncounter(){
-    var userAction = prompt("1. Attack Noir\n 2.Talk to Noir");
+    var userAction = prompt("1. Attack Noir\n 2. Talk to Noir");
 
     while (userAction < 0 || userAction > 2){
-        userAction = prompt("Invalid input.\n1. Attack Noir\n 2.Talk to Noir");
+        userAction = prompt("Invalid input.\n1. Attack Noir\n 2. Talk to Noir");
     }
 
     if (userAction == 1){
@@ -103,7 +103,7 @@ function BridgeEncounter(){
     console.log("There are sharpened wooden spikes sticking out from the ground as well as guards patrolling the gate.");
     console.log("You approach the gate with caution and are immediately stopped.");
     console.log("The man says that you cannot pass because there is a bounty out for your head. He will not say by whom.");
-    console.log("You explain your reason for passing but he will have none of it.")
+    console.log("You explain your reason for passing but he will have none of it.");
     console.log("What are you going to do?");
 
     var userAction = prompt("1.Attack the man\n2.Try to reason with him");
@@ -157,6 +157,50 @@ function BridgeEncounter(){
 }
 
 function LondonEncounter(){
+    var defenseUp = Roll(10);
+
+    //encounter
+    console.log(" ");
+    console.log("You finally arrive in London and immediately feel out of place due to the proximity of the Church.");
+    console.log("You make your way into the Order and find the headmaster in his study.");
+    console.log("He warmly welcomes you, and asks the reason behind your visit.");
+    console.log("What would you like to do?");
+
+    var userAction = prompt("1. Attack the headmaster\n2. Explain your reason for visiting");
+
+    while (userAction < 0 || userAction > 2){
+        userAction = prompt("Invalid input.\1. Attack the headmaster\n2. Explain your reason for visiting");
+    }
+
+    if (userAction == 1){
+        fightScore = fightScore + 1;
+        console.log(" ");
+        console.log("You decide to attack the headmaster.");
+        outcome = DoCombat(80);
+
+        if (outcome){
+            console.log("Your attack lands square on the headmaster’s forehead. Though once you recoil from the attack " +
+                "you see he is unphased. He glances at you with sad, tired eyes and says, \"I am going to pretend you " +
+                "were not that stupid\" he says.");
+            console.log("He puts you in a magical hold, restraining your movement and hurting you slightly.");
+            DamagePlayer(Roll(3));
+            console.log(" ");
+            console.log("He asks again for the reason behind your visit, with slightly more annoyance in his voice.");
+            console.log("You explain that you are looking for Justin, and his eyes go wide.");
+            console.log("He tells you he cannot help you and that you should speak with Karn and orders you to leave at once, " +
+                "releasing the hold.");
+            console.log("You scurry off without hesitation. In the hallway, there is a destressed man waiting outside the door.");
+            console.log("His voice shaking, he tells you that Justin is going after the cult, and then he runs down the hallway.");
+            console.log("You pause, then begin the journey back to the covenant.");
+            KarnEncounter();
+        } else {
+            console.log("Your attack misses the headmaster.");
+            console.log("He looks at you with sad, tired eyes, and sighs deeply. He asks you again for the reason behind your visit.");
+            console.log("You hesitate for a moment, feeling a bit guilty about your aggression. Maybe you should consider seeking help.");
+            console.log("")
+        }
+
+    }
 
 }
 
