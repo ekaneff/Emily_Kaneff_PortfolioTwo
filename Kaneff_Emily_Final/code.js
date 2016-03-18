@@ -171,6 +171,7 @@ function CultEncounter(){
 function DamagePlayer(damage){
     //dividing by 6 allows for a higher chance that the player will take more damage based on their defense value
     var temp = damage + ((character.defense / 6) * (-1));
+    console.log(temp);
 
     if (temp < 0){
         temp = 0;
