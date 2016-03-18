@@ -53,7 +53,7 @@ function NoirEncounter(){
         fightScore = fightScore + 1;
         console.log(" ");
         console.log("You decide to fight Noir.");
-        outcome = DoCombat(60);
+        outcome = DoCombat(10);
 
         if (outcome) {
             console.log(" ");
@@ -65,7 +65,10 @@ function NoirEncounter(){
         } else {
             console.log(" ");
             console.log("Your attack misses and Noir decides to hit you as defense.");
-            DamagePlayer(Roll(7));
+            DamagePlayer(Roll(40));
+            if(character.health == 0){
+                return;
+            }
             console.log("You apologize for your outburst and ask him when the last time he saw Justin was.");
             console.log("He tells you that he last saw her heading towards London to talk to the head master of the " +
                 "covenant there to deal with the most recent problem of blood cultists terrorizing the covenants.");
@@ -124,6 +127,9 @@ function BridgeEncounter(){
             console.log("Before the man can draw his sword, you are hit in the shoulder with in arrow fired from an archer" +
                 " on the gate.");
             DamagePlayer(Roll(7));
+            if(character.health == 0){
+                return;
+            }
             console.log("The man looks at you for a long moment, then yells to the guards to open the gate.");
             console.log("He is impressed by your courage and tells you that he let someone matching Justin's description " +
                 "through the gate a day or two ago.");
@@ -137,6 +143,9 @@ function BridgeEncounter(){
             console.log("He tells you that you have a minute to start running before he orders the archers to fire.");
             console.log("You take off running without looking back, and you feel a shooting pain in the back of your leg.");
             DamagePlayer(Roll(4));
+            if(character.health == 0){
+                return;
+            }
             console.log("You pull the arrow out of your leg and push onward towards London, hoping those men are gone on the way back");
             LondonEncounter();
 
@@ -186,6 +195,10 @@ function LondonEncounter(){
                 "were not that stupid\" he says.");
             console.log("He puts you in a magical hold, restraining your movement and hurting you slightly.");
             DamagePlayer(Roll(3));
+            if(character.health == 0){
+
+                return;
+            }
             console.log(" ");
             console.log("He asks again for the reason behind your visit, with slightly more annoyance in his voice.");
             console.log("You explain that you are looking for Justin, and his eyes go wide.");
@@ -206,6 +219,9 @@ function LondonEncounter(){
             console.log("In the hallway, there is a man waiting, looking destressed. He looks up, smacks you across the face," +
                 " and takes off down the hallway.");
             DamagePlayer(Roll(2));
+            if(character.health == 0){
+                return;
+            }
             console.log("You stand there stunned for a moment, then take off towards to covenant.");
             KarnEncounter();
         }
@@ -219,9 +235,8 @@ function LondonEncounter(){
         console.log("He tells you that she moved through here not long ago, and that last he had heard, she was speaking" +
             " to the Church to arrange a crusade to save people from the cultists that are terrorizing the towns.");
         console.log("You thank him for his time and leave. You begin the journey back to the covenant.");
+        KarnEncounter();
     }
-
-
 }
 
 function KarnEncounter(){
@@ -243,9 +258,13 @@ function DamagePlayer(damage){
     character.health -= temp;
 
     console.log("You suffer " + temp + " points of damage.");
-    console.log("Your current health is now " + character.health);
     if (character.health <= 0){
+        character.health = 0;
+        console.log("Your current health is now " + character.health);
         Die();
+    }
+    else {
+        console.log("Your current health is now " + character.health);
     }
 
 }
@@ -253,6 +272,7 @@ function DamagePlayer(damage){
 function Die(){
     console.log("You have died. You failed to find Justin. You are a failure.");
     console.log("Thanks for playing! Refresh the page to try again.");
+
 }
 
 function DoCombat(diff){
