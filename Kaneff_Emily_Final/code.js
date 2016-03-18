@@ -65,7 +65,7 @@ function NoirEncounter(){
         } else {
             console.log(" ");
             console.log("Your attack misses and Noir decides to hit you as defense.");
-            DamagePlayer(Roll(5));
+            DamagePlayer(Roll(7));
             console.log("You apologize for your outburst and ask him when the last time he saw Justin was.");
             console.log("He tells you that he last saw her heading towards London to talk to the head master of the " +
                 "covenant there to deal with the most recent problem of blood cultists terrorizing the covenants.");
@@ -146,6 +146,7 @@ function BridgeEncounter(){
         peaceScore = peaceScore + 1;
         console.log(" ");
         console.log("You decide to try and bargin with the man.");
+        console.log(" ");
         console.log("Before leaving for the journey, you had someone in the covenant turn some rocks into what looks like " +
             "currency using a Muto Imaginem spell.");
         console.log("You tell the man that you will pay him double what the bounty is for your head.");
@@ -169,13 +170,14 @@ function LondonEncounter(){
     var userAction = prompt("1. Attack the headmaster\n2. Explain your reason for visiting");
 
     while (userAction < 0 || userAction > 2){
-        userAction = prompt("Invalid input.\1. Attack the headmaster\n2. Explain your reason for visiting");
+        userAction = prompt("Invalid input.\n1. Attack the headmaster\n2. Explain your reason for visiting");
     }
 
     if (userAction == 1){
         fightScore = fightScore + 1;
         console.log(" ");
         console.log("You decide to attack the headmaster.");
+        console.log(" ");
         outcome = DoCombat(80);
 
         if (outcome){
@@ -193,14 +195,32 @@ function LondonEncounter(){
             console.log("His voice shaking, he tells you that Justin is going after the cult, and then he runs down the hallway.");
             console.log("You pause, then begin the journey back to the covenant.");
             KarnEncounter();
+
         } else {
             console.log("Your attack misses the headmaster.");
             console.log("He looks at you with sad, tired eyes, and sighs deeply. He asks you again for the reason behind your visit.");
             console.log("You hesitate for a moment, feeling a bit guilty about your aggression. Maybe you should consider seeking help.");
-            console.log("")
+            console.log("You explain that you are looking for Justin and the headmaster signs deeply again.");
+            console.log("He releases the hold and, looking defeated, tells you that he cannot help you. You must speak with Karn.");
+            console.log("He tells you to leave, and you turn away swiftly.");
+            console.log("In the hallway, there is a man waiting, looking destressed. He looks up, smacks you across the face," +
+                " and takes off down the hallway.");
+            DamagePlayer(Roll(2));
+            console.log("You stand there stunned for a moment, then take off towards to covenant.");
+            KarnEncounter();
         }
 
+    } else {
+        peaceScore = peaceScore + 1;
+        console.log(" ");
+        console.log("You decide to explain you reason for visiting.");
+        console.log(" ");
+        console.log("You tell the head master that you are looking for Justin and his eyes turn sad.");
+        console.log("He tells you that she moved through here not long ago, and that last he had heard, she was speaking" +
+            " to the Church to arrange a crusade to save people from the cultists that are terrorizing the towns.");
+        console.log("You thank him for his time and leave. You begin the journey back to the covenant.");
     }
+
 
 }
 
@@ -215,7 +235,7 @@ function CultEncounter(){
 function DamagePlayer(damage){
     //dividing by 6 allows for a higher chance that the player will take more damage based on their defense value
     var temp = damage + ((character.defense / 6) * (-1));
-    console.log(temp);
+
 
     if (temp < 0){
         temp = 0;
