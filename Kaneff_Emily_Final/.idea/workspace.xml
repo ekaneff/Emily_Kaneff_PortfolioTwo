@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -34,13 +34,12 @@
       <file leaf-file-name="code.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.00625">
-              <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.76875">
+              <caret line="210" column="62" selection-start-line="210" selection-start-column="62" selection-end-line="210" selection-end-column="62" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+                <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+                <element signature="n#!!block;n#Die#0" expanded="false" />
                 <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
               </folding>
             </state>
@@ -102,8 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,6 +121,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +245,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -257,9 +256,29 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
+            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -279,9 +298,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -301,9 +319,29 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
+            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -323,9 +361,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -345,9 +382,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -367,9 +403,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -389,9 +424,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -411,9 +445,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -433,9 +466,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -455,9 +487,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -477,9 +508,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -499,9 +529,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -521,9 +550,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -543,9 +571,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -565,9 +592,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -587,9 +613,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -609,9 +634,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>
@@ -619,21 +643,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.00625">
-          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.76875">
+          <caret line="210" column="62" selection-start-line="210" selection-start-column="62" selection-end-line="210" selection-end-column="62" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
+            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
+            <element signature="n#!!block;n#Die#0" expanded="false" />
             <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
           </folding>
         </state>

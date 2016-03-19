@@ -11,8 +11,8 @@ var outcome = true;
 
 var JSONText = '['+
         '{ "name" : "Darius", "health" : 10, "attack" : 12, "defense" : 18},'+
-        '{ "name" : "Brent", "health" : 25, "attack" : 10, "defense" : 12},'+
-        '{ "name" : "Karl", "health" : 17, "attack" : 5, "defense" : 6}]';
+        '{ "name" : "Brent", "health" : 25, "attack" : 10, "defense" : 6},'+
+        '{ "name" : "Karl", "health" : 17, "attack" : 5, "defense" : 12}]';
 
 var characters = JSON.parse(JSONText);
 
@@ -53,19 +53,19 @@ function NoirEncounter(){
         fightScore = fightScore + 1;
         console.log(" ");
         console.log("You decide to fight Noir.");
-        outcome = DoCombat(10);
+        outcome = DoCombat(50);
 
         if (outcome) {
             console.log(" ");
             console.log("Your attack hits and Noir runs away without telling you anything.");
             console.log("He drops a note saying that Justin was last seen heading towards London to talk to the head master of the " +
-                "covenant there to deal with the most recent problem of blood cultists terrorizing the covenants..");
+                "order there to deal with the most recent problem of something terrorizing the covenants..");
             console.log("You decide to head that way.");
             BridgeEncounter();
         } else {
             console.log(" ");
             console.log("Your attack misses and Noir decides to hit you as defense.");
-            DamagePlayer(Roll(40));
+            DamagePlayer(Roll(5));
             if(character.health == 0){
                 return;
             }
@@ -93,7 +93,7 @@ function BridgeEncounter(){
     console.log(" ");
     console.log("You are about a day and a half out of London.");
 
-    //find item
+    //find health item
     console.log("While traveling through the woods, you notice something strange sitting in the grass off to the side of the path.");
     console.log("You decide to investigate.");
     character.health += healthUp;
@@ -119,7 +119,7 @@ function BridgeEncounter(){
         fightScore = fightScore + 1;
         console.log(" ");
         console.log("You decide to fight the man.");
-        outcome = DoCombat(55);
+        outcome = DoCombat(45);
 
         if (outcome) {
             console.log(" ");
@@ -167,7 +167,6 @@ function BridgeEncounter(){
 }
 
 function LondonEncounter(){
-    var defenseUp = Roll(10);
 
     //encounter
     console.log(" ");
@@ -187,16 +186,15 @@ function LondonEncounter(){
         console.log(" ");
         console.log("You decide to attack the headmaster.");
         console.log(" ");
-        outcome = DoCombat(80);
+        outcome = DoCombat(60);
 
         if (outcome){
             console.log("Your attack lands square on the headmaster’s forehead. Though once you recoil from the attack " +
                 "you see he is unphased. He glances at you with sad, tired eyes and says, \"I am going to pretend you " +
-                "were not that stupid\" he says.");
+                "were not that stupid.\"");
             console.log("He puts you in a magical hold, restraining your movement and hurting you slightly.");
             DamagePlayer(Roll(3));
             if(character.health == 0){
-
                 return;
             }
             console.log(" ");
@@ -204,9 +202,9 @@ function LondonEncounter(){
             console.log("You explain that you are looking for Justin, and his eyes go wide.");
             console.log("He tells you he cannot help you and that you should speak with Karn and orders you to leave at once, " +
                 "releasing the hold.");
-            console.log("You scurry off without hesitation. In the hallway, there is a destressed man waiting outside the door.");
+            console.log("You scurry off without hesitation. In the hallway, there is a distressed man waiting outside the door.");
             console.log("His voice shaking, he tells you that Justin is going after the cult, and then he runs down the hallway.");
-            console.log("You pause, then begin the journey back to the covenant.");
+            console.log("You pause, then begin the journey back to the covenant to get mor information.");
             KarnEncounter();
 
         } else {
@@ -216,13 +214,13 @@ function LondonEncounter(){
             console.log("You explain that you are looking for Justin and the headmaster signs deeply again.");
             console.log("He releases the hold and, looking defeated, tells you that he cannot help you. You must speak with Karn.");
             console.log("He tells you to leave, and you turn away swiftly.");
-            console.log("In the hallway, there is a man waiting, looking destressed. He looks up, smacks you across the face," +
+            console.log("In the hallway, there is a man waiting, looking distressed. He looks up, smacks you across the face," +
                 " and takes off down the hallway.");
             DamagePlayer(Roll(2));
             if(character.health == 0){
                 return;
             }
-            console.log("You stand there stunned for a moment, then take off towards to covenant.");
+            console.log("You stand there stunned for a moment, then take off towards to covenant to get more information.");
             KarnEncounter();
         }
 
@@ -240,6 +238,22 @@ function LondonEncounter(){
 }
 
 function KarnEncounter(){
+    var defenseUp = Roll(5);
+
+    //find defense item
+    console.log(" ");
+    console.log("On you way back, you come across the same bridge as before.");
+    console.log("This time, however, everything is burnt to the ground. You see the charred bodies of the bandits and a " +
+        "massive brand burnt into the center of the bridge.");
+    console.log("You move very carefully through the remains. Off to the side, you notice a piece od armor still in tact on one" +
+        "of the bodies.");
+    console.log("you pick it up and put it on.");
+    character.defense += defenseUp;
+    alert("You found armor!\nYou gain " + defenseUp + " points of defense\nYour total defense is now " + defenseUp);
+
+    //encounter
+
+
 
 }
 
