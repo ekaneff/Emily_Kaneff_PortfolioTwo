@@ -16,6 +16,14 @@ var JSONText = '['+
 
 var characters = JSON.parse(JSONText);
 
+//array to hold items collected
+var items = [];
+
+//constructor for item objects
+function ItemObj(name){
+    this.name = name;
+}
+
 
 //opening title with directions
 console.log("----- Finding Justin of Tremere -----");
@@ -97,6 +105,7 @@ function BridgeEncounter(){
     console.log("While traveling through the woods, you notice something strange sitting in the grass off to the side of the path.");
     console.log("You decide to investigate.");
     character.health += healthUp;
+    items.push(new ItemObj("Longevity Potion"));
     alert("You found a longevity potion!\nYour health increases by " + healthUp + "!\nYour current health is now " + character.health);
 
     //encounter
@@ -249,6 +258,7 @@ function KarnEncounter(){
         "of the bodies.");
     console.log("you pick it up and put it on.");
     character.defense += defenseUp;
+    items.push(new ItemObj("Armor Piece"));
     alert("You found armor!\nYou gain " + defenseUp + " points of defense\nYour total defense is now " + character.defense);
 
     //encounter
@@ -313,6 +323,7 @@ function KarnEncounter(){
 
         //receive attack item
         character.attack += attackUp;
+        items.push(new ItemObj("Mythril Sword"));
         alert("You receive a mythril sword!\nYour attack increases by " + attackUp + " points!\nYour attack is now " + character.attack);
 
         console.log(" ");
