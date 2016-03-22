@@ -33,7 +33,7 @@ CharacterSelect();
 
 
 //introduction
-console.log("You arrive at the covenant, the home of Justin, the missing mage. You are not quite sure what to make of it.\n" +
+console.log("You arrive at the covenant, the home of Justin, the mage that has left in search of something. You are not quite sure what to make of it.\n" +
     "The archway is on fire, so you proceed with caution.");
 console.log("As you walk in, you are immediately approached by a strange egyptian looking man.");
 console.log("He says his name is Noir. What would you like to do?(Enter the number)");
@@ -226,7 +226,6 @@ function LondonEncounter(){
 
     } else {
         peaceScore = peaceScore + 1;
-        console.log(" ");
         console.log("You decide to explain you reason for visiting.");
         console.log(" ");
         console.log("You tell the head master that you are looking for Justin and his eyes turn sad.");
@@ -239,6 +238,7 @@ function LondonEncounter(){
 
 function KarnEncounter(){
     var defenseUp = Roll(5);
+    var attackUp = Roll(Roll(10));
 
     //find defense item
     console.log(" ");
@@ -249,12 +249,81 @@ function KarnEncounter(){
         "of the bodies.");
     console.log("you pick it up and put it on.");
     character.defense += defenseUp;
-    alert("You found armor!\nYou gain " + defenseUp + " points of defense\nYour total defense is now " + defenseUp);
+    alert("You found armor!\nYou gain " + defenseUp + " points of defense\nYour total defense is now " + character.defense);
 
     //encounter
+    console.log(" ");
+    console.log("Arriving back at the covenant, you make your way directly towards Karn, the headmaster of the covenant.");
+    console.log("You find him in his room laying down, looking exhausted. He seems to be fatigued.");
+    console.log("He sits up suddenly as he feels you enter. His eyes look worried.");
+    console.log("What do you want to do?");
 
+    var userAction = prompt("1. Attack Karn\n2. Explain why you are here and ask for guidance");
 
+    while (userAction < 0 || userAction > 2){
+        userAction = prompt("Invalid input.\n1. Attack Karn\n2. Explain why you are here and ask for guidance");
+    }
 
+    if (userAction == 1){
+        fightScore = fightScore + 1;
+        console.log(" ");
+        console.log("You decide to attack Karn.");
+        outcome = DoCombat(40);
+
+        if(outcome){
+            console.log(" ");
+            console.log("Your attack hits Karn and knocks him back down. He lay there motionless, but still breathing.");
+            console.log("You suddenly feel a rush of guilt take over your body. Why would you attack a tired, old man?");
+            console.log("You rush to his side to see if he is alright and are then thrust backward against the wall.");
+            DamagePlayer(Roll(5));
+            if(character.health == 0){
+                return;
+            }
+            console.log("Karn finds the strength to stand and moves to his desk to shuffle through some papers.");
+            console.log("He makes his way over to your spot on the floor and hands you a map with a brand burned into it.");
+            console.log("The brand matches the one you saw on the bridge and he tells you that Justin is heading towards the " +
+                "location of the brand.");
+            console.log("She is going to try and help defeat the band of blood cultists that have been wreaking havoc on the covenants.");
+            console.log("He sighs, and then looks you in the eyes and asks you to please bring her home safe.");
+            console.log("You stand and shake his hand, tell him that you will do you best, and head off towards the location on the map.");
+            CultEncounter();
+        } else {
+            console.log(" ");
+            console.log("You attack misses Karn, and he looks at you with remorse.");
+            console.log("It's like he can see your pain inside and you suddenly feel guilty and small.");
+            console.log("He pauses and looks at you for a long moment, then turns away and begins searching for a something" +
+                " on his desk.");
+            console.log("He returns with a map that has a brand burned into a portion of it. It matches the one from the bridge. He tells you that Justin is " +
+                "heading towards the location of the brand.");
+            console.log("She is after the blood cultists that have been terrorizing the covenants.");
+            console.log("You thank him and apologize for trying to attack him. He shakes your hand and wishes you luck.");
+            console.log("you turn and leave the room, making your way to the cultists.");
+            CultEncounter();
+        }
+
+    } else {
+        peaceScore = peaceScore + 1;
+        console.log(" ");
+        console.log("You decide to explain why you are visiting and ask Karn for guidance.");
+        console.log("With the mention of Justin, his eyes fill with hope. He smiles and shakes your hand excitedly.");
+        console.log("He tells you that he wishes he could have sent another mage with her, but there were none available.");
+        console.log("Moving with extreme determination, he goes to his desk and retrieves a piece of paper. He then makes his way" +
+            " to a cabinet and brings out a massive sword that appears to be glowing.");
+        console.log("He returns and hands you the sword. It is surprisingly light in your hands.");
+
+        //receive attack item
+        character.attack += attackUp;
+        alert("You receive a mythril sword!\nYour attack increases by " + attackUp + " points!\nYour attack is now " + character.attack);
+
+        console.log(" ");
+        console.log("He then hands you the paper. It is a map with a brand burned into a section of it. You recognize the brand " +
+            "as the one from the bridge.");
+        console.log("Karn tells you that Justin is probably heading to the location of the brand, since that is the known location" +
+            " of the blood cultists.");
+        console.log("He grabs your hand and looks you in the eyes. He tells you to bring her home safe, and releases you.");
+        console.log("You nod and thank him for everything before leaving the room to begin the journey to Justin.");
+        CultEncounter();
+    }
 }
 
 function CultEncounter(){
