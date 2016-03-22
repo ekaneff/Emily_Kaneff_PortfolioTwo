@@ -9,11 +9,6 @@ var fightScore = 0;
 var outcome = true;
 
 
-var JSONText = '['+
-        '{ "name" : "Darius", "health" : 10, "attack" : 12, "defense" : 18},'+
-        '{ "name" : "Brent", "health" : 25, "attack" : 10, "defense" : 6},'+
-        '{ "name" : "Karl", "health" : 17, "attack" : 5, "defense" : 12}]';
-
 var characters = JSON.parse(JSONText);
 
 //array to hold items collected
@@ -21,6 +16,7 @@ var items = [];
 
 //constructor for item objects
 function ItemObj(name){
+
     this.name = name;
 }
 
@@ -105,6 +101,7 @@ function BridgeEncounter(){
     console.log("While traveling through the woods, you notice something strange sitting in the grass off to the side of the path.");
     console.log("You decide to investigate.");
     character.health += healthUp;
+    //push item objects into item array
     items.push(new ItemObj("Longevity Potion"));
     alert("You found a longevity potion!\nYour health increases by " + healthUp + "!\nYour current health is now " + character.health);
 
@@ -118,7 +115,7 @@ function BridgeEncounter(){
     console.log("You explain your reason for passing but he will have none of it.");
     console.log("What are you going to do?");
 
-    var userAction = prompt("1.Attack the man\n2.Try to reason with him");
+    var userAction = prompt("1. Attack the man\n2. Try to reason with him");
 
     while (userAction < 0 || userAction > 2){
         userAction = prompt("Invalid input.\n1.Attack the man\n 2.Try to reason with him");
@@ -128,7 +125,7 @@ function BridgeEncounter(){
         fightScore = fightScore + 1;
         console.log(" ");
         console.log("You decide to fight the man.");
-        outcome = DoCombat(45);
+        outcome = DoCombat(40);
 
         if (outcome) {
             console.log(" ");
@@ -202,7 +199,7 @@ function LondonEncounter(){
                 "you see he is unphased. He glances at you with sad, tired eyes and says, \"I am going to pretend you " +
                 "were not that stupid.\"");
             console.log("He puts you in a magical hold, restraining your movement and hurting you slightly.");
-            DamagePlayer(Roll(3));
+            DamagePlayer(Roll(5));
             if(character.health == 0){
                 return;
             }
@@ -247,7 +244,7 @@ function LondonEncounter(){
 
 function KarnEncounter(){
     var defenseUp = Roll(5);
-    var attackUp = Roll(Roll(10));
+    var attackUp = Roll(10);
 
     //find defense item
     console.log(" ");
@@ -338,6 +335,9 @@ function KarnEncounter(){
 }
 
 function CultEncounter(){
+    console.log(" ");
+    console.log("As you walk through the covenant to leave, you notice a hooded figure approaching the main entrance.");
+    
 
 }
 
@@ -365,8 +365,15 @@ function DamagePlayer(damage){
 
 function Die(){
     console.log("You have died. You failed to find Justin. You are a failure.");
+    if (items.length > 0){
+        console.log("You collected the following items:");
+        for (i = 0; i < items.length; i++){
+            console.log(items[i].name);
+        }
+    } else {
+        console.log("You collected no items.");
+    }
     console.log("Thanks for playing! Refresh the page to try again.");
-
 }
 
 function DoCombat(diff){
