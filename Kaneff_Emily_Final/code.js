@@ -337,7 +337,73 @@ function KarnEncounter(){
 function CultEncounter(){
     console.log(" ");
     console.log("As you walk through the covenant to leave, you notice a hooded figure approaching the main entrance.");
-    
+    console.log("The figure's face is hidden from view and it appears to be dragging someone behind it by some magical levitation.");
+    console.log("That person is Justin!");
+    console.log("You begin to run towards the figure and are stopped by a familiar face.");
+    console.log("Noir tells you that the man is Sebastian, the leader of the blood cultists, and approaching him would not be a good idea.");
+    console.log("What would you like to do?");
+
+    var userAction = prompt("1. Attack the leader\n2. Stay back with Noir");
+
+    while(userAction < 0 || userAction > 3){
+        userAction = prompt("Invalid Input\n1. Attack the leader\n2. Stay back with Noir");
+    }
+
+    if(userAction == 1){
+        fightScore = fightScore + 1;
+        console.log(" ");
+        console.log("You decide to try and attack the leader of the blood cultists.");
+        outcome = DoCombat(70);
+
+        if(outcome){
+            console.log(" ");
+            console.log("Your attack hits and bounces directly off of him. He stops moving towards the entrance.");
+            console.log("After a long pause, he looks up and pulls off his hood to reveal his face.");
+            console.log("Across his left eye is a brand, the same brand seen on the map and at the bridge.");
+            console.log("He looks at you for a brief moment before casting a spell in your direction.");
+            console.log("You are suddenly overcome with extreme pain and fall to the ground. It feels as if your entire " +
+                "body is burning.");
+            DamagePlayer(Roll(12));
+            if (character.health == 0){
+                return;
+            }
+            console.log(" ");
+            console.log("Laughing at your pain, Sebastian releases Justin from her hold and hold her in front of him.");
+            console.log("You watch her cower in fear under his grasp and you feel hopeless as he tells you that you were " +
+                "foolish to attack.");
+
+            if (fightScore > peaceScore){
+                FightEnd();
+            } else {
+                PeaceEnd1();
+            }
+
+        } else {
+            console.log(" ");
+            console.log("Your attack misses Sebastian.");
+            console.log("He pauses, draws down his hood, and looks directly at you.");
+            console.log("As his stare grows more intense, notice a second version of him begin moving towards you.");
+            console.log("Arrows seem to pass through him as he is unphased on his mission towards where you are standing.");
+            console.log("Before you can turn to run, you feel a force holding you in place and slowly start to crush you.");
+            DamagePlayer(Roll(12));
+            if (character.health == 0){
+                return;
+            }
+            console.log("Just as your vision begins to fade, you hear an explosion and are released.");
+            console.log("Looking around, you realize that Karn had cast a spell on the projection, breaking the magical hold.");
+            console.log("You look back and see that Sebastian has released Justin and is holding her out in front of him.");
+            console.log("He tells you that you were foolish to have attempted an attack.");
+
+            if (fightScore > peaceScore){
+                FightEnd();
+            } else {
+                PeaceEnd1();
+            }
+        }
+
+    } else {
+
+    }
 
 }
 
@@ -364,7 +430,7 @@ function DamagePlayer(damage){
 }
 
 function Die(){
-    console.log("You have died. You failed to find Justin. You are a failure.");
+    console.log("You have died. You are a failure.");
     if (items.length > 0){
         console.log("You collected the following items:");
         for (i = 0; i < items.length; i++){
@@ -374,6 +440,39 @@ function Die(){
         console.log("You collected no items.");
     }
     console.log("Thanks for playing! Refresh the page to try again.");
+}
+
+function FightEnd(){
+    console.log(" ");
+    console.log("Sebastian then raises the red gem in his hand and begins chanting loudly.");
+    console.log("The archer's have begun firing but they simply deflect off of him. The chanting gets louder" +
+        " and the gem begins to glow.");
+    console.log("Suddenly Justin yells in pain and falls to the ground, motionless.");
+    console.log("Sebastian yells that you were foolish to try and fight, then dissipates before your eyes.");
+    console.log("As you lie on the ground, you are filled with regret as you watch Noir reach Justin's body and " +
+        "confirm her death.");
+    console.log(" ");
+    console.log("You have reached the end of your mission. Your many violent actions have caused you to fail to save Justin.");
+
+
+    if (items.length > 0){
+        console.log("You collected the following items:");
+        for (i = 0; i < items.length; i++){
+            console.log(items[i].name);
+        }
+    } else {
+        console.log("You collected no items.");
+    }
+    console.log("Thanks for playing! Refresh the page to try again.");
+}
+
+function PeaceEnd1(){
+    console.log(" ");
+    console.log("Before anything else can happen, you see Sebastian's eyes grow wide with fear.");
+    console.log("Behind you, you begin to hear very loud, ancient chanting coming from Karn.");
+    console.log("Suddenly, a massive void opens up beneath Sebastian and he falls into it.");
+    console.log("The void closes after he falls and Justin is released onto the ground, gasping for air.");
+    console.log("You run to her, reassure her that everything is alright, and he hugs you.");
 }
 
 function DoCombat(diff){
