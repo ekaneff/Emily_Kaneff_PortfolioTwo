@@ -49,7 +49,7 @@ NoirEncounter();
 function NoirEncounter(){
     var userAction = prompt("1. Attack Noir\n 2. Talk to Noir");
 
-    while (userAction < 0 || userAction > 2){
+    while (isNaN(userAction) || userAction < 0 || userAction > 2){
         userAction = prompt("Invalid input.\n1. Attack Noir\n 2. Talk to Noir");
     }
 
@@ -117,7 +117,7 @@ function BridgeEncounter(){
 
     var userAction = prompt("1. Attack the man\n2. Try to reason with him");
 
-    while (userAction < 0 || userAction > 2){
+    while (isNaN(userAction) || userAction < 0 || userAction > 2){
         userAction = prompt("Invalid input.\n1.Attack the man\n 2.Try to reason with him");
     }
     //fight
@@ -183,7 +183,7 @@ function LondonEncounter(){
 
     var userAction = prompt("1. Attack the headmaster\n2. Explain your reason for visiting");
 
-    while (userAction < 0 || userAction > 2){
+    while (isNaN(userAction) || userAction < 0 || userAction > 2){
         userAction = prompt("Invalid input.\n1. Attack the headmaster\n2. Explain your reason for visiting");
     }
 
@@ -244,7 +244,7 @@ function LondonEncounter(){
 
 function KarnEncounter(){
     var defenseUp = Roll(5);
-    var attackUp = Roll(10);
+    var attackUp = Roll(5);
 
     //find defense item
     console.log(" ");
@@ -267,7 +267,7 @@ function KarnEncounter(){
 
     var userAction = prompt("1. Attack Karn\n2. Explain why you are here and ask for guidance");
 
-    while (userAction < 0 || userAction > 2){
+    while (isNaN(userAction) || userAction < 0 || userAction > 2){
         userAction = prompt("Invalid input.\n1. Attack Karn\n2. Explain why you are here and ask for guidance");
     }
 
@@ -343,9 +343,9 @@ function CultEncounter(){
     console.log("Noir tells you that the man is Sebastian, the leader of the blood cultists, and approaching him would not be a good idea.");
     console.log("What would you like to do?");
 
-    var userAction = prompt("1. Attack the leader\n2. Stay back with Noir");
+    var userAction = prompt("1. Attack Sebastian\n2. Stay back with Noir");
 
-    while(userAction < 0 || userAction > 3){
+    while(isNaN(userAction) || userAction < 0 || userAction > 3){
         userAction = prompt("Invalid Input\n1. Attack the leader\n2. Stay back with Noir");
     }
 
@@ -368,7 +368,7 @@ function CultEncounter(){
                 return;
             }
             console.log(" ");
-            console.log("Laughing at your pain, Sebastian releases Justin from her hold and hold her in front of him.");
+            console.log("Laughing at your pain, Sebastian releases Justin from her hold and holds her in front of him.");
             console.log("You watch her cower in fear under his grasp and you feel hopeless as he tells you that you were " +
                 "foolish to attack.");
 
@@ -402,14 +402,26 @@ function CultEncounter(){
         }
 
     } else {
+        peaceScore = peaceScore + 1;
+        console.log(" ");
+        console.log("You decide to stay back with Noir.");
+        console.log("Sebastian continues walking towards the covenant and stops short just before the entrance");
+        console.log("He pauses there for a long moment before looking up and puling down his hood. He looks directly at you.");
+        console.log("He tells you that he wants you to come with him back to the cult, and if you do, he will leave peacefully.");
 
+        if (fightScore > peaceScore){
+            console.log("You refuse, and he says \"Very well then.\"");
+            FightEnd();
+        } else {
+            PeaceEnd1();
+        }
     }
 
 }
 
 function DamagePlayer(damage){
     //dividing by 6 allows for a higher chance that the player will take more damage based on their defense value
-    var temp = damage + ((character.defense / 6) * (-1));
+    var temp = Math.floor(damage + ((character.defense / 6) * (-1)));
 
 
     if (temp < 0){
@@ -472,7 +484,19 @@ function PeaceEnd1(){
     console.log("Behind you, you begin to hear very loud, ancient chanting coming from Karn.");
     console.log("Suddenly, a massive void opens up beneath Sebastian and he falls into it.");
     console.log("The void closes after he falls and Justin is released onto the ground, gasping for air.");
-    console.log("You run to her, reassure her that everything is alright, and he hugs you.");
+    console.log("You run to her, reassure her that everything is alright, and she hugs you.");
+    console.log(" ");
+    console.log("You have reached the end of your mission. Your peaceful choices have allowed you to find Justin alive.");
+
+    if (items.length > 0){
+        console.log("You collected the following items:");
+        for (i = 0; i < items.length; i++){
+            console.log(items[i].name);
+        }
+    } else {
+        console.log("You collected no items.");
+    }
+    console.log("Thanks for playing! Refresh the page to try again.");
 }
 
 function DoCombat(diff){
@@ -508,7 +532,7 @@ function CharacterSelect(){
 
     var charSelect = prompt("Input character number to select character:");
 
-    while (charSelect < 0 || charSelect > 3){
+    while (isNaN(charSelect) || charSelect < 0 || charSelect > 3){
         charSelect = prompt("Invalid input. Please enter a valid character number.");
     }
 
