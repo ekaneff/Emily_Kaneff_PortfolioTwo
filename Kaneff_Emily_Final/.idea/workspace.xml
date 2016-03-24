@@ -34,23 +34,17 @@
       <file leaf-file-name="code.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1953125">
-              <caret line="336" column="24" selection-start-line="336" selection-start-column="24" selection-end-line="336" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.42561206">
+              <caret line="469" column="0" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-                <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-                <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-                <element signature="n#!!block;n#Die#0" expanded="false" />
-                <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-                <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-                <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-                <element signature="n#!!block;n#Roll#0" expanded="false" />
-                <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+                <element signature="e#1839#4199#0" expanded="false" />
+                <element signature="e#4232#8763#0" expanded="false" />
+                <element signature="e#8796#13088#0" expanded="false" />
+                <element signature="e#13119#19129#0" expanded="false" />
+                <element signature="e#19160#23770#0" expanded="false" />
+                <element signature="e#23806#24440#0" expanded="false" />
+                <element signature="e#24461#24882#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,10 +88,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
+    <option name="x" value="149" />
+    <option name="y" value="44" />
     <option name="width" value="1160" />
-    <option name="height" value="737" />
+    <option name="height" value="628" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,6 +139,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,12 +214,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1160" height="737" extended-state="0" />
+    <frame x="149" y="44" width="1160" height="628" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1612069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -260,7 +254,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -289,19 +283,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -320,19 +308,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -351,19 +333,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -390,19 +366,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -421,19 +391,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,19 +416,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -483,19 +441,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -514,19 +466,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -545,19 +491,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -576,19 +516,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,19 +541,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,19 +566,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -669,19 +591,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -700,19 +616,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,19 +641,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,19 +666,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,19 +691,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,19 +716,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -855,19 +741,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,19 +766,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,19 +791,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,19 +816,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -979,19 +841,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,23 +872,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1953125">
-          <caret line="336" column="24" selection-start-line="336" selection-start-column="24" selection-end-line="336" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.42561206">
+          <caret line="469" column="0" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="n#!!block;n#ItemObj#0" expanded="false" />
-            <element signature="n#!!block;n#NoirEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#BridgeEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#LondonEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#KarnEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#CultEncounter#0" expanded="false" />
-            <element signature="n#!!block;n#DamagePlayer#0" expanded="false" />
-            <element signature="n#!!block;n#Die#0" expanded="false" />
-            <element signature="n#!!block;n#FightEnd#0" expanded="false" />
-            <element signature="n#!!block;n#PeaceEnd1#0" expanded="false" />
-            <element signature="n#!!block;n#DoCombat#0" expanded="false" />
-            <element signature="n#!!block;n#Roll#0" expanded="false" />
-            <element signature="n#!!block;n#CharacterSelect#0" expanded="false" />
+            <element signature="e#1839#4199#0" expanded="false" />
+            <element signature="e#4232#8763#0" expanded="false" />
+            <element signature="e#8796#13088#0" expanded="false" />
+            <element signature="e#13119#19129#0" expanded="false" />
+            <element signature="e#19160#23770#0" expanded="false" />
+            <element signature="e#23806#24440#0" expanded="false" />
+            <element signature="e#24461#24882#0" expanded="false" />
           </folding>
         </state>
       </provider>
